@@ -5,7 +5,7 @@
 Check for WebRTC peers using the [WebTorrent](http://webtorrent.io) protocol (BitTorrent
 over WebRTC).
 
-To see a demo visit [this](https://bubuanablas.github.io/CheckWebPeer/) and try with this info hash: `6a9759bffd5c0af65319979fb7832189f4f3c35d`
+To see a demo visit [this](https://bubuanabelas.github.io/CheckWebPeer/) and try with this info hash: `6a9759bffd5c0af65319979fb7832189f4f3c35d`
 
 ## How does it work?
 
