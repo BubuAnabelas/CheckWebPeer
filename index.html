@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Check Web Peer</title>
+	<link rel="stylesheet" type="text/css" href="dist/style.css" />
+</head>
+
+<body>
+	<center>
+		<h1>Check WebRTC peers.</h1>
+		<form>
+			<label for="magnet">Magnet link or info hash:</label>
+			<input type="text" id="magnet" placeholder="magnet:"/>
+			<input type="submit" value="Check"/>
+		</form>
+	</center>
+
+	<h2 id="resultsHeading" style="display:none;">Results:</h2>
+	<div id="results"></div>
+
+	<h2 id="logHeading" style="display:none;">Log:</h2>
+	<div id="log"></div>
+
+	<footer>Code is available on <a href="https://github.com/BubuAnabelas/CheckWebPeer">GitHub</a> under MIT License.</footer>
+
+	<script type="text/javascript" src="dist/bundle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+{
+  "name": "CheckWebPeer",
+  "description": "Check WebRTC peers of torrents.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Joaquín Serna",
+    "url": "http://github.com/BubuAnabelas"
+  },
+  "bugs": {
+    "url": "https://github.com/BubuAnabelas/CheckWebPeer/issues"
+  },
+  "dependencies": {
+    "bittorrent-tracker": "^8.0.6",
+    "hat": "0.0.3",
+    "parse-torrent": "^5.7.3",
+    "zero-fill": "^2.2.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.0.0"
+  },
+  "homepage": "https://github.com/BubuAnabelas/CheckWebPeer",
+  "keywords": [
+    "p2p",
+    "webrtc",
+    "data channel",
+    "peers",
+    "webtorrent"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BubuAnabelas/CheckWebPeer.git"
+  },
+  "scripts": {
+    "build-js": "browserify client > static/bundle.js"
+  }
+}
