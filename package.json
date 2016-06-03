@@ -33,6 +33,6 @@
     "url": "git://github.com/BubuAnabelas/CheckWebPeer.git"
   },
   "scripts": {
-    "build-js": "browserify client > static/bundle.js"
+    "build-js": "browserify src > dist/bundle.js"
   }
 }
