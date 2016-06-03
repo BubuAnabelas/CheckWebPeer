@@ -20,13 +20,11 @@ const defaultOpts = {
 
 function checkTorrent (magnet) {
 	try {
-		Parse(magnet);
+		return Parse(magnet);
 	} catch (e) {
 		log.error(e)
 		return;
 	}
-
-	return Parse(magnet);
 }
 
 function createClient (opts) {
